@@ -23,19 +23,24 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Icon(Icons.menu),
                 SizedBox(
-                  height: 40,
+                  height: 32,
                 ),
                 Text(
                   'Hi, James!',
                   style: TextStyle(
+                    fontFamily: 'Poppins',
+                    fontWeight: FontWeight.bold,
                     fontSize: 24
                   ),
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 32,
                 ),
                 Text(
                   'What do you want to order today?',
+                  style: TextStyle(
+                    fontFamily: 'Poppins',
+                  )
                 ),
                 SizedBox(height: 8,),
                 Container(
@@ -50,7 +55,8 @@ class _HomePageState extends State<HomePage> {
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8,horizontal: 16),
                         child: Icon(
-                          Icons.search
+                          Icons.search,
+                          color: Color(0xFF757575),
                         ),
                       ),
                       Expanded(
@@ -69,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 SizedBox(height: 32,),
                 Container(
-                  height: 60,
+                  height: 80,
                   child: ListView(
                     // This next line does the trick.
                     scrollDirection: Axis.horizontal,
@@ -84,11 +90,13 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 24,
                 ),
                 Text(
                   'Specials',
                   style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                      fontFamily: 'Poppins',
                       fontSize: 24
                   ),
                 ),
