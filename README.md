@@ -1,6 +1,8 @@
 # fluttertalk
 
-A new Flutter application.
+A new Flutter application to demonstrate building of moderatey complex UI.
+
+Link to Dribbble UI that has been implemented - https://dribbble.com/shots/11564019-Food-delivery-app-concept
 
 ## Getting Started
 
